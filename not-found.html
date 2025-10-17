@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 8em;
+            margin: 0;
+            color: #e74c3c;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-top: 10px;
+            color: #555;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin-top: 20px;
+            line-height: 1.5;
+            color: #777;
+        }
+
+        button {
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            padding: 12px 25px;
+            margin-top: 30px;
+            border-radius: 5px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>404</h1>
+        <h2>Oops! Page Not Found</h2>
+        <p>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.
+        </p>
+        <button onclick="goToHomepage()">Go to Homepage</button>
+    </div>
+    <script>
+        function goToHomepage() {
+            // Replace 'your-homepage-url.com' with the actual URL of your website's homepage
+            window.location.href = '/';
+        }
+    </script>
+</body>
+
+</html>
