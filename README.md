@@ -2,7 +2,14 @@
 
 A simple static bike shop landing page for showcasing services, contact details, and a modern storefront-style experience. 🚴✨
 
-[![Live Demo](https://img.shields.io/badge/Demo-Live%20Demo-brightgreen?style=for-the-badge&logo=githubpages)](https://diptods.github.io/bike_shop/)
+<p align="center">
+  <a href="https://diptods.github.io/bike_shop/" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub_Pages-Live_Demo-brightgreen?style=for-the-badge&logo=githubpages" alt="GitHub Pages Demo" />
+  </a>
+  <a href="https://bike-shop-phi-steel.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Vercel-Live_Demo-0000fa?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel Live Demo" />
+  </a>
+</p>
 
 ---
 
@@ -15,7 +22,7 @@ This project is a lightweight front-end website built with **HTML**, **CSS**, **
 - 🚫 **Custom 404 Page:** Clean, modern error handling page (`not-found.html`) with redirect capabilities.
 - 🎨 **Custom Styling:** Enhanced styling built on top of Bootstrap using custom CSS rules.
 - 🚀 **GitHub Pages Ready:** Ready to deploy directly as a static web project.
-
+- ⚡ **Vercel Deployment:** Deploy directly using vercel to run the project.
 ---
 
 ## 🛠️ Tech Stack
@@ -41,22 +48,63 @@ The_Bike_Shop/
 └── 📝 README.md           # Project documentation
 ```
 
+
 ## 💻 Run Locally
 
-Because this is a static site, you can run it in two easy ways:
+Follow these step-by-step instructions to get a local copy up and running on your machine.
 
-1. 🖱️ Open `index.html` directly in any web browser.
-2. ⚡ Or serve the project locally using Python:
+### Prerequisites
+Make sure you have [Git](https://git-scm.com/) installed on your system. If you want to use the local server option, ensure [Python 3](https://www.python.org/) is installed as well.
+
+---
+
+### Step 1: Clone the Repository
+Open your terminal or command prompt and clone the project to your local machine:
 
 ```bash
-python -m http.server 8000
-
+git clone https://github.com/diptods/bike_shop.git
 ```
-Then visit:
 
-```text
-http://localhost:8000
+### Step 2: Navigate to the Project Directory
+```bash
+cd bike_shop
 ```
+### Step 3: Launch the Project
+Choose either of the two methods below to view the site locally:
+
+#### Option A: Direct Browser Launch (Quickest)
+Simply open the `index.html` file directly in your preferred web browser:
+
+* **Windows:** Double-click `index.html` inside your project folder, or run:
+  ```bash
+  start index.html
+  ```
+* **macOS:**
+  ```bash
+  open index.html
+  ```
+* **Linux:**
+  ```bash
+  xdg-open index.html
+  ```
+#### Option B: Local Python HTTP Server (Recommended)
+Serving through a local server ensures consistent asset loading and prevents local file path issues.
+
+1. Start the Python local HTTP server:
+   ```bash
+   python -m http.server 8000
+   ```
+   If python points to Python 2 on your system, use instead
+   ```bash
+   python3 -m http.server 8000
+   ```
+2. Open your web browser and navigate to:
+   ```bash
+   http://localhost:8000
+   ```
+3. To stop the server when you're done, press `Ctrl + C` in your terminal.
+
+
 
 
 
@@ -74,6 +122,21 @@ This project is configured for **GitHub Pages** deployment. You can publish the 
 
 ---
 
+## 👨‍💻 Project Maintainer & Creator
+
+| Role | Details |
+| :--- | :--- |
+| **Creator / Author** | **Dipto Das** |
+| **GitHub Profile** | [@diptods](https://github.com/diptods) |
+| **Email** | [diptods35@gmail.com](mailto:diptods35@gmail.com) |
+| **Role** | Full-Stack & MERN Developer |
+
+---
+
+
+
 ## 📄 License
 
 This project is provided for educational/demo purposes unless you add a specific license file otherwise. ⚖️
+
+> Built and maintained with care by **[Dipto Das](https://github.com/diptods)**.
