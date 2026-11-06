@@ -6,6 +6,7 @@ A simple static bike shop landing page for showcasing services, contact details,
   <a href="https://diptods.github.io/bike_shop/" target="_blank">
     <img src="https://img.shields.io/badge/GitHub_Pages-Live_Demo-brightgreen?style=for-the-badge&logo=githubpages" alt="GitHub Pages Demo" />
   </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://bike-shop-phi-steel.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/Vercel-Live_Demo-0000fa?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel Live Demo" />
   </a>
